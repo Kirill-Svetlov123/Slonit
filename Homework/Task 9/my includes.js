@@ -1,6 +1,4 @@
 function myIncludes(arr, item, from = 0) {
-    console.log(arr.includes(item, from))
-
     if (from < 0) {
         if (from < arr.length * -1) from = arr.length * -1
         from = arr.length + from

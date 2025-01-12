@@ -1,4 +1,5 @@
-function mySlice(arr, start, end) {
+function mySlice(arr, start = 0, end = arr.length) {
+    console.log(arr.slice(start))
     resultArr = []
 
     if (start < 0) {
