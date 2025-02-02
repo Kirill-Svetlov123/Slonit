@@ -24,6 +24,3 @@ const operations = {
     multiply: multiplyNumbers,
     division: divisionNumbers,
 }
-  
-const selectedOperation = "multiply";
-console.log(simpleCalculate(6, 3, operations[selectedOperation]));
